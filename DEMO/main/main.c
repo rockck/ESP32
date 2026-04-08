@@ -2,7 +2,8 @@
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 #include "driver/gpio.h" // 添加 GPIO 驱动头文件
-
+#include "OLED_Data.h"
+#include "OLED.h"
 #define LED_GPIO GPIO_NUM_20 // 定义 LED 连接的 GPIO 引脚
 
 void app_main(void)
