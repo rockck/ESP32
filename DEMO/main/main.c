@@ -4,7 +4,7 @@
 
 void app_main(void)
 {
-
+    // this is a demo
     printf("Hello World!\n");
-    vTaskDelay(1000 / portTICK_PERIOD_MS);
+    vTaskDelay(500 / portTICK_PERIOD_MS);
 }
