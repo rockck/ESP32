@@ -6,7 +6,7 @@
     "interface/ftdi/esp_ftdi.cfg",
     "target/esp32s3.cfg"
   ],
-  "idf.portWin": "COM8",
+  "idf.portWin": "COM3",
   "idf.toolsPathWin": "c:\\Espressif\\tools",
   "idf.customExtraVars": {
     "IDF_TARGET": "esp32s3"
@@ -23,5 +23,6 @@
     "task.h": "c",
     "freertos.h": "c"
   },
-  "idf.currentSetup": "C:\\Espressif\\.espressif\\v5.5.4\\esp-idf"
+  "idf.currentSetup": "F:\\ESP32\\.espressif\\v5.5.4\\esp-idf",
+  "idf.flashType": "UART"
 }
